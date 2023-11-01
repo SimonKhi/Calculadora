@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <script src="calculadora.js"></script>
     <title>Calculadora</title>
 </head>
 <body>
     <div class="calculadora">
         <div class="salida">
-            <input class="display" type="text" placeholder="0">
+            <input class="display" type="text" placeholder="0" id="result" readonly>
         </div>
         <button name="data-all-clear">AC</button>
         <button name="data-clear">C</button>
@@ -32,5 +31,6 @@
         <button name="data-number">0</button>
         <button name="data-result">=</button>
     </div>
+    <script src="calculadora.js"></script>
 </body>
 </html>
