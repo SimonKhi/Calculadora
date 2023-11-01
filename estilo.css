@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,9 +7,10 @@
 
 body {
     height: 100vh;
-    background-color: aqua;
+    background: linear-gradient(#ff6d81, #ffdcde);
     display: flex;
     justify-content: center;
+    font-family: 'Noto Sans Symbols 2', sans-serif;
 }
 
 .calculadora {
@@ -22,12 +25,22 @@ body {
     font-size: 1.5rem;
     border: 2px solid white;
     outline: none;
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(218, 218, 218, 0.75);
+    font-family: 'Kay Pho Du', serif;
+}
+
+#red {
+    background-color: red;
+}
+
+#red:hover {
+    background-color: rgba(255, 111, 111, 0.9);
 }
 
 .salida {
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(218, 218, 218, 0.75);
+    border: 2 solid white;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -39,8 +52,11 @@ body {
 
 .display {
     color: black;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    height: 45px;
+    width: 275px;
     text-align: right;
+    font-family: 'Kay Pho Du', serif;
 }
 
 .calculadora button:hover {
